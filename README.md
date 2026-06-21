@@ -141,8 +141,6 @@ numpy
 scikit-learn
 ```
 
-> See `requirements.txt` for pinned versions.
-
 ---
 
 ## 📈 Results
