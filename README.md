@@ -139,8 +139,6 @@ streamlit
 pandas
 numpy
 scikit-learn
-matplotlib
-seaborn
 ```
 
 > See `requirements.txt` for pinned versions.
