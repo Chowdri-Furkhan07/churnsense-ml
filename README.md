@@ -63,15 +63,15 @@ Raw CSV  →  Data Cleaning  →  Feature Engineering  →  Encoding  →  Scali
 
 ### Steps in `train_churn.py`
 
-1. **Data Collection** — Load `churn_prediction.csv`
-2. **Data Cleaning** — Remove duplicates, handle nulls (forward-fill + back-fill), fix formats
-3. **Feature Engineering** — Convert `LastPurchaseDate` → `DaysSinceLastPurchase` (recency signal)
-4. **Encoding** — Label Encoding on all categorical columns
-5. **EDA** — Churn distribution, Income vs Churn, Spending vs Churn
-6. **Train/Test Split** — 80/20 split, `random_state=42`
-7. **Model Training** — 6 classifiers benchmarked
-8. **Best Model Selection** — Ranked by F1 Score
-9. **Model Serialization** — `pickle.dump` saves `(model, scaler, features)`
+1. **Data Collection** - Load `churn_prediction.csv`
+2. **Data Cleaning** - Remove duplicates, handle nulls (forward-fill + back-fill), fix formats
+3. **Feature Engineering** - Convert `LastPurchaseDate` → `DaysSinceLastPurchase` (recency signal)
+4. **Encoding** - Label Encoding on all categorical columns
+5. **EDA** - Churn distribution, Income vs Churn, Spending vs Churn
+6. **Train/Test Split** - 80/20 split, `random_state=42`
+7. **Model Training** - 6 classifiers benchmarked
+8. **Best Model Selection** - Ranked by F1 Score
+9. **Model Serialization** - `pickle.dump` saves `(model, scaler, features)`
 
 ### Models Benchmarked
 
