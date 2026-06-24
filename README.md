@@ -160,7 +160,7 @@ scikit-learn
 - Customers with **lower spending scores** show higher churn rates
 - **High return counts** (3+) correlate strongly with churn
 - **Short session times** paired with low review scores are strong churn signals
-- Income alone is not a reliable predictor — **behaviour patterns dominate**
+- Income alone is not a reliable predictor - **behaviour patterns dominate**
 
 ---
 
@@ -191,5 +191,3 @@ AIML Engineer
 ## 📄 License
 
 This project is for academic and portfolio purposes.
-
----
