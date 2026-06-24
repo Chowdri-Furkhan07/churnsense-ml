@@ -6,7 +6,7 @@ A machine learning web application that predicts customer churn using behavioral
 
 ## 📌 Problem Statement
 
-Customer churn is one of the most critical challenges in retail and e-commerce. Retaining an existing customer costs **5× less** than acquiring a new one. This project builds an end-to-end ML pipeline that identifies at-risk customers **before** they leave — enabling proactive, data-driven retention strategies.
+Customer churn is one of the most critical challenges in retail and e-commerce. Retaining an existing customer costs **5× less** than acquiring a new one. This project builds an end-to-end ML pipeline that identifies at-risk customers **before** they leave - enabling proactive, data-driven retention strategies.
 
 ---
 
@@ -40,7 +40,7 @@ churnsense-ml/
 |---|---|
 | **Records** | 5,200 customers |
 | **Features** | 19 input features + 1 target |
-| **Target** | `Churn` — Yes / No (binary) |
+| **Target** | `Churn` - Yes / No (binary) |
 | **Class Balance** | Yes: 2,627 · No: 2,573 (nearly balanced) |
 
 ### Feature Categories
